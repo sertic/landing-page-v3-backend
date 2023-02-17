@@ -6,8 +6,8 @@ const getTransporter = () => {
         port: 465,
         secure: true,
         auth:{
-            user: "contacto@sertic.com.ar",
-            pass: "yuwwgzftiqpswigt"
+            user: "alesandro.lalli@gmail.com",
+            pass: "teyzbhjjxfxwfhgr"
         }
     })
 };
