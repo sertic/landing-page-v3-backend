@@ -15,6 +15,7 @@ router.post(
         check("name", "El nombre es obligatorio").not().isEmpty(),
         check("email", "Coloque un email valido").isEmail(),
         check("email", "El email es obligatorio").not().isEmpty(),
+        check("phone", "Coloque un telefono valido").isNumeric(),
         check("message", "El mensaje es obligatorio").not().isEmpty(),
         validErr,
     ],

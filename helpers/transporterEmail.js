@@ -1,4 +1,5 @@
 const nodemailer = require("nodemailer");
+const data = require("../data/data.json");
 
 const getTransporter = () => {
     return nodemailer.createTransport({
@@ -6,8 +7,8 @@ const getTransporter = () => {
         port: 465,
         secure: true,
         auth:{
-            user: "alesandro.lalli@gmail.com",
-            pass: "teyzbhjjxfxwfhgr"
+            user: data.email,
+            pass: "teyzbhjjxfxwfhgr" //TODO: pedir pass a Pancho
         }
     })
 };

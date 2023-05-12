@@ -1,4 +1,5 @@
 const transporter = require("../helpers/transporterEmail");
+const data = require("../data/data.json");
 
 const sendWorkingEmail = async (req, res = response) => {
     try {
@@ -6,7 +7,7 @@ const sendWorkingEmail = async (req, res = response) => {
         
         await transporter().sendMail({
             from: email,
-            to: "alesandro.lalli@gmail.com",
+            to: data.email,
             subject: "Solicitud de empleo por la web",
             html: `<h2>Hola!</h2><h3>Tienes una nueva solicitud de trabajo de ${name}</h3><h3>Email: ${email}</h3><h3>Contacto: ${phone}</h3><h3>Localidad de residencia: ${address}</h3><h3>Linkedin: ${linkedin}</h3><h3>Link de repositorio: ${repository}</h3><h3>Expectativa salarial: ${salary}</h3><h3>Tecnologías que maneja: ${technologies}</h3><h3>Breve reseña de su experiencia laboral:</h3><em><h3>${experience}</h3></em><b>Sertic - Soluciones Informáticas.</b>`,
             attachments: [
@@ -16,6 +17,7 @@ const sendWorkingEmail = async (req, res = response) => {
                 }
             ]
         })
+        console.log(`Se envio correctamente mail a ${data.email}`);
 
         return res.status(201).json({
             ok: true,
