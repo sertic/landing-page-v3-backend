@@ -1,6 +1,10 @@
 {
     "EMAIL":{
         "user":"contacto@sertic.com.ar",
-        "pass":"yuwwgzftiqpswigt"
+        "pass":"yuwwgzftiqpswigt",
+        "TESTING":{
+            "user":"alesandro.lalli@gmail.com",
+            "pass":"teyzbhjjxfxwfhgr"
+        }
     }
 }
