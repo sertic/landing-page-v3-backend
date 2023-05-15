@@ -7,12 +7,12 @@ const sendMessageEmail = async (req, res = response) => {
 
         await transporter().sendMail({
             from: email,
-            to: data.email,
+            to: data.EMAIL.user,
             subject: "Nuevo mensaje de la web",
             html: (`<h2>Hola!</h2><h3>Tienes un nuevo mensaje de ${name}</h3><h3>Email: ${email}</h3><h3>Contacto: ${phone}</h3><em><h3>${message}</h3></em><b>Sertic - Soluciones Informáticas.</b>`)
         })
 
-        console.log(`Se envio correctamente mail a ${data.email}`);
+        console.log(`Se envio correctamente mail a ${data.EMAIL.user}`);
 
         return res.status(201).json({
             ok: true,
