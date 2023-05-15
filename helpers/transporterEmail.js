@@ -7,8 +7,8 @@ const getTransporter = () => {
         port: 465,
         secure: true,
         auth:{
-            user: data.email,
-            pass: "teyzbhjjxfxwfhgr" //TODO: pedir pass a Pancho
+            user: data.EMAIL.user,
+            pass: data.EMAIL.pass
         }
     })
 };

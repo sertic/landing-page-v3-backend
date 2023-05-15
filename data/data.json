@@ -1,3 +1,6 @@
 {
-    "email":"contacto@sertic.com.ar"
+    "EMAIL":{
+        "user":"contacto@sertic.com.ar",
+        "pass":"yuwwgzftiqpswigt"
+    }
 }
