@@ -1,5 +1,6 @@
 const { response } = require("express");
 const data = require("../data/data");
+const axios = require("axios");
 
 const validToken = async(req, res = response, next) => {
     const token = req.headers.authorization; 
@@ -15,13 +16,8 @@ const validToken = async(req, res = response, next) => {
 
     try {
         const verifyUrl = `${data.reCAPTCHA.verify_url}?secret=${data.reCAPTCHA.secret_key}&response=${token}`;
-        const resp = await fetch( verifyUrl, {
-            headers:{
-                "Content-type":"application/json"
-            },
-            method: 'POST',
-        });
-        const respData = await resp.json();
+        const resp = await axios.post( verifyUrl );
+        const respData = resp.data;
         const { success } = respData;
         
         if(success){

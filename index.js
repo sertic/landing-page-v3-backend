@@ -7,7 +7,6 @@ const multer = require("multer");
 const bodyParser = require('body-parser');
 const app = express();
 
-
 app.use( express.static("public") );
 app.use( express.json() );
 app.use( cors());
