@@ -6,5 +6,9 @@
             "user":"alesandro.lalli@gmail.com",
             "pass":"teyzbhjjxfxwfhgr"
         }
+    },
+    "reCAPTCHA":{
+        "secret_key":"6LfcLREmAAAAAFYuAoBBwOklC8PLzE3gN0KeAZVL",
+        "verify_url":"https://www.google.com/recaptcha/api/siteverify"
     }
 }

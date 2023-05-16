@@ -8,6 +8,7 @@ const { Router } = require("express");
 const router = Router();
 const sendMessageEmail = require("../controllers/messageEmail");
 const { validErr } = require("../middlewares/validErr");
+const { validToken } = require("../middlewares/validToken");
 
 router.post(
     "",
@@ -18,6 +19,7 @@ router.post(
         check("phone", "Coloque un telefono valido").isNumeric(),
         check("message", "El mensaje es obligatorio").not().isEmpty(),
         validErr,
+        validToken,
     ],
     sendMessageEmail
 );
