@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca2d01a5.css",
-    "main.js": "/static/js/main.1d239e1a.js",
+    "main.css": "/static/css/main.400a7608.css",
+    "main.js": "/static/js/main.b263be63.js",
     "static/media/Romero.png": "/static/media/Romero.b782b2177e427432d314.png",
     "static/media/Torres.png": "/static/media/Torres.1bb333aa2f66c25fa654.png",
     "static/media/Brussa.png": "/static/media/Brussa.6e13006cdd06199296a3.png",
@@ -25,6 +25,7 @@
     "static/media/service-img-3.png": "/static/media/service-img-3.a51f1f49cc6988ecd6a6.png",
     "static/media/service-img-1.png": "/static/media/service-img-1.630d90352182efef6288.png",
     "static/media/Herrera.png": "/static/media/Herrera.5089c8490573a74cfd49.png",
+    "static/js/mapbox-gl-csp-worker.efe49301.worker.js": "/static/js/mapbox-gl-csp-worker.efe49301.worker.js",
     "static/media/Scarpino.png": "/static/media/Scarpino.0c518564d1fcdaf0fcac.png",
     "static/media/service-3.png": "/static/media/service-3.7c5b7d01f97e440afc49.png",
     "static/media/service-1.png": "/static/media/service-1.d2973a8a83f5b571446a.png",
@@ -46,11 +47,11 @@
     "static/media/zona93.png": "/static/media/zona93.0a291c2cb826861a846f.png",
     "static/media/faro.png": "/static/media/faro.317badd53bd38f889e86.png",
     "index.html": "/index.html",
-    "main.ca2d01a5.css.map": "/static/css/main.ca2d01a5.css.map",
-    "main.1d239e1a.js.map": "/static/js/main.1d239e1a.js.map"
+    "main.400a7608.css.map": "/static/css/main.400a7608.css.map",
+    "main.b263be63.js.map": "/static/js/main.b263be63.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca2d01a5.css",
-    "static/js/main.1d239e1a.js"
+    "static/css/main.400a7608.css",
+    "static/js/main.b263be63.js"
   ]
 }
