@@ -33,7 +33,7 @@ const sendWorkingEmail = async (req, res = response) => {
                 }
             ]
         })
-        console.log(`Se envio correctamente mail a ${data.EMAIL.TESTING.user}`);
+        console.log(`Se envio correctamente mail a ${data.EMAIL.user}`);
 
         return res.status(201).json({
             ok: true,
