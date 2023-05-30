@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.400a7608.css",
-    "main.js": "/static/js/main.b263be63.js",
+    "main.js": "/static/js/main.d3d845b6.js",
     "static/media/Romero.png": "/static/media/Romero.b782b2177e427432d314.png",
     "static/media/Torres.png": "/static/media/Torres.1bb333aa2f66c25fa654.png",
     "static/media/Brussa.png": "/static/media/Brussa.6e13006cdd06199296a3.png",
@@ -48,10 +48,10 @@
     "static/media/faro.png": "/static/media/faro.317badd53bd38f889e86.png",
     "index.html": "/index.html",
     "main.400a7608.css.map": "/static/css/main.400a7608.css.map",
-    "main.b263be63.js.map": "/static/js/main.b263be63.js.map"
+    "main.d3d845b6.js.map": "/static/js/main.d3d845b6.js.map"
   },
   "entrypoints": [
     "static/css/main.400a7608.css",
-    "static/js/main.b263be63.js"
+    "static/js/main.d3d845b6.js"
   ]
 }
