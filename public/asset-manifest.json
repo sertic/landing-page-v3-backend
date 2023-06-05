@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8bbf117.css",
-    "main.js": "/static/js/main.6f452b25.js",
+    "main.css": "/static/css/main.8c6bead2.css",
+    "main.js": "/static/js/main.06df5b4e.js",
     "static/media/Romero.png": "/static/media/Romero.b782b2177e427432d314.png",
     "static/media/Torres.png": "/static/media/Torres.1bb333aa2f66c25fa654.png",
     "static/media/Brussa.png": "/static/media/Brussa.6e13006cdd06199296a3.png",
@@ -47,11 +47,11 @@
     "static/media/zona93.png": "/static/media/zona93.0a291c2cb826861a846f.png",
     "static/media/faro.png": "/static/media/faro.317badd53bd38f889e86.png",
     "index.html": "/index.html",
-    "main.c8bbf117.css.map": "/static/css/main.c8bbf117.css.map",
-    "main.6f452b25.js.map": "/static/js/main.6f452b25.js.map"
+    "main.8c6bead2.css.map": "/static/css/main.8c6bead2.css.map",
+    "main.06df5b4e.js.map": "/static/js/main.06df5b4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8bbf117.css",
-    "static/js/main.6f452b25.js"
+    "static/css/main.8c6bead2.css",
+    "static/js/main.06df5b4e.js"
   ]
 }
